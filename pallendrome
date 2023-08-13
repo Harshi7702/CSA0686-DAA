@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	char ch[20];
+	cout<<"enter the string";
+	cin>>ch;
+	if(ch==strrev(ch))
+	{
+		cout<<"pallendrome";
+		
+	}
+	else
+	{
+		cout<<"not pallendrome"
+	}
+}
